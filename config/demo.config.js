@@ -53,8 +53,7 @@ module.exports={
     },
     dev:{
         rootPath:rootPath,
-        hostname:'127.0.0.1',
-        port:3001,
-
+        hostname:'127.0.0.1', //ip地址
+        port:3001, //端口号
     }
 }

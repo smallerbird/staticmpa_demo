@@ -1,0 +1,11 @@
+{
+  "name": "bangbang",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "merge": "bangbang --file merge.demo.bangbang.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

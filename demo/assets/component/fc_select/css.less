@@ -1,0 +1,56 @@
+.fcselectopen{
+  color:#333 !important;
+  .title{
+    background: url(/assets/component/FC_select/selectu.png) no-repeat right center !important;
+  }
+  .select-list{
+    display:block !important;
+  }
+}
+.FC-select{
+  width: 150px;
+  padding-top: 14px;
+  float: left;
+  .title{
+    padding-left: 20px;
+    background: url(/assets/component/FC_select/selectd.png) no-repeat right center;
+  }
+  /*&:hover{
+    color:#333;
+    .title{
+      padding-left: 20px;
+      background: url(/assets/component/FC_select/selectu.png) no-repeat right center;
+    }
+    .select-list{
+      display:block;
+    }
+  }*/
+  .select-list{
+    display: none;
+    /*display: block;*/
+    position: absolute;
+    z-index: 100000;
+    width:169px;
+    color:#333;
+    font-size: 12px;
+    background:rgba(255,255,255,1);
+    box-shadow:0px 2px 4px 0px rgba(0,0,0,0.2);
+    border:1px solid rgba(237,237,237,1);
+    a{
+      color:#333;
+      display: block;
+      padding: 7px 18px 7px 21px;
+      border-top:1px solid rgba(237,237,237,1);
+      &:hover{
+        color:#333;
+        text-decoration: none;
+      }
+      &:active{
+        color:#333;
+      }
+      &:first-child{
+        border-top:0 solid rgba(237,237,237,1);
+      }
+    }
+  }
+}

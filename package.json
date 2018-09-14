@@ -1,0 +1,30 @@
+{
+  "name": "staticmpa_demo",
+  "version": "0.0.1",
+  "description": "staticmpa demo for test",
+  "main": "staticmpa demo test",
+  "scripts": {
+    "start_demo": "node node_modules/staticmpa/run/startServer.js --config demo",
+    "watch_demo": "node node_modules/staticmpa/run/watch.js --config demo --js true",
+    "build_demo": "node node_modules/staticmpa/run/build.js --config demo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smallerbird/StaticMPA.js.git"
+  },
+  "author": "smallerbird",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smallerbird/StaticMPA.js/issues"
+  },
+  "homepage": "https://github.com/smallerbird/StaticMPA.js#readme",
+  "keywords": [
+    "staticmpa",
+    "deom",
+    "test"
+  ],
+  "dependencies": {
+    "@babel/preset-env": "^7.0.0",
+    "staticmpa": "git://github.com/smallerbird/staticmpa_dist.git"
+  }
+}

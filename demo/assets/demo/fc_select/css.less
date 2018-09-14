@@ -1,0 +1,31 @@
+<%
+var pageName='fc_select';
+var constpathPrefix='./demo/';
+//引用const常量
+var path=require('path');
+var constpath=path.resolve(rootpath,constpathPrefix+'assets/const.less');
+var constFC_Select=path.resolve(rootpath,constpathPrefix+'assets/component/fc_select/css.less');
+%>
+@import '<%=constpath%>';
+@import '<%=constFC_Select%>';
+
+.<%=pageName%>-contaier{
+     padding: 30px;
+     #selecttestContainer2{
+       .FC-select{
+         width: 160px;
+         .title{
+           color:#ff0000;
+           font-weight: bold;
+           overflow: hidden; text-overflow:ellipsis; white-space: nowrap;
+           padding-right: 20px;
+         }
+         .select-list{
+           a{
+             color:#0000ff;
+           }
+         }
+       }
+
+     }
+}

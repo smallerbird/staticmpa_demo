@@ -1,0 +1,51 @@
+.debug_info_pad{
+
+    display: none;
+    width: 800px;
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    position: absolute;
+    z-index: 1000000;
+    top: 0px;
+    left: 10%;
+    filter:alpha(opacity=90); /* IE */
+    -moz-opacity:0.9; /* 老版Mozilla */
+    -khtml-opacity:0.9; /* 老版Safari */
+    opacity: 0.9; /* 支持opacity的浏览器*/
+    .title{
+        cursor:move;
+        height: 25px;
+        background-color: #999;
+        color: #fff;
+        padding-top: 5px;
+        .tip{
+            float:left;
+        }
+        .close{
+            display: block;
+            float: right;
+            width: 50px;
+        }
+        .show{
+            .close;
+        }
+    }
+    .container{
+        padding: 3px;
+        max-height: 500px;
+        overflow: auto;
+        .debug_row{
+            display: block;
+            text-decoration: none;
+        }
+        .log{
+            border: 1px solid #999;
+            margin: 2px;
+        }
+        .error{
+            border: 1px solid #f00;
+            margin: 2px;
+            color: #f00;
+        }
+    }
+}

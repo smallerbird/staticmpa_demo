@@ -1,0 +1,47 @@
+<%-include("../pub/header_start.html")%>
+<title>templete</title>
+<%-include("../pub/header_end.html")%>
+<%-include("../pub/body_start.html")%>
+<div id="testie-container" style="display: none;">
+    <h4>兼容ie8测试..</h4>
+    <div id="test1">
+        <h3>jquery append</h3>
+        <div id="test1container">
+
+        </div>
+        <a href="#" class="btn1">jquery append</a>
+    </div>
+    <div id="test2">
+        <h3>自动变宽</h3>
+        <div id="test2conatiner">
+            <div class="right">
+                <div class="sub-conatienr">
+                    <div class="w1 b1">自宽1xxxxxxxxxxxxx</div>
+                </div>
+                <div class="sub-conatienr">
+                    <div class="w2 b2">自宽2</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="test3">
+        <h3>鼠标放上去离开（请查看:打印日志）</h3>
+        <div id="test3container">
+            <a href="#" id="btn1">放上去试一下</a>
+        </div>
+    </div>
+    <div id="test4">
+        <h3>鼠标坐标:拖动和碰撞检查</h3>
+        <div id="test4container">
+            <h4>注：快捷键：alt+shift+o 开/关</h4>
+            <div style="color: #f00;font-size: 20px;" class="onoff">关</div>
+            <div id="mousebox">按下开始鼠标跟踪</div>
+            <div id="hitarea">检查碰撞区域</div>
+        </div>
+    </div>
+    <div style="height: 500px" class="clearfix"></div>
+    <h3>底部</h3>
+</div>
+<%-include("../pub/pubJS_part.html")%>
+<script type="text/javascript" src="/assets/demo/testie/js.min.js"></script>
+<%-include("../pub/body_end.html")%>

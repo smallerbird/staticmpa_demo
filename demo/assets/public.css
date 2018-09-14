@@ -1,0 +1,16 @@
+* {
+  font-family: "Microsoft YaHei";
+}
+a,
+a:link,
+a:hover {
+  text-decoration: none;
+}
+/*用来权限隐藏*/
+.permissions-hide {
+  display: none;
+}
+/*语言i18n*/
+.i18n-hide {
+  display: none;
+}

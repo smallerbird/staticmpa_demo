@@ -1,0 +1,17 @@
+<%-include("../pub/header_start.html")%>
+<title>templete</title>
+<%-include("../pub/header_end.html")%>
+<%-include("../pub/body_start.html")%>
+<div id="getpost-container" style="display: none;">
+    <h3>接口请求测试</h3>
+    <a href="#" class="btnDebug" data-type="get">get</a>
+    <a href="#" class="btnDebug" data-type="post">post</a>
+    <a href="#" class="btnDebug" data-type="put">put</a>
+    <a href="#" class="btnDebug" data-type="deletet">delete</a>
+    <a href="#" class="btnDebug" data-type="response401">response 401</a>
+    <a href="#" class="btnDebug" data-type="response403">response 403</a>
+
+</div>
+<%-include("../pub/pubJS_part.html")%>
+<script type="text/javascript" src="/assets/demo/getpost/js.min.js"></script>
+<%-include("../pub/body_end.html")%>

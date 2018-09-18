@@ -25,6 +25,6 @@
   ],
   "dependencies": {
     "@babel/preset-env": "^7.0.0",
-    "staticmpa": "git://github.com/smallerbird/staticmpa_dist.git"
+    "staticmpa": "0.0.1"
   }
 }

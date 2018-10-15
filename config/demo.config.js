@@ -17,7 +17,12 @@ module.exports={
         ],
         //编译，压缩，优化，需要排除的
         beautifierIgnore:[
-            /\/demo\/assets\/lib\/test\//
+            /\/demo\/assets\/lib\/test\//,
+            /\.min\.js$/,
+            /\.min\.js\.map$/,
+            /es2015$/,
+            /\.min\.css$/,
+            /\.css$/,
         ],
         /**
          *  文件改为回调

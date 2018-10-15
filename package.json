@@ -6,7 +6,8 @@
   "scripts": {
     "start_demo": "node node_modules/staticmpa/run/startServer.js --config demo",
     "watch_demo": "node node_modules/staticmpa/run/watch.js --config demo --js true",
-    "build_demo": "node node_modules/staticmpa/run/build.js --config demo"
+    "build_demo": "node node_modules/staticmpa/run/build.js --config demo",
+    "build_jscss": "node node_modules/staticmpa/run/transferJsCss.js --config demo"
   },
   "repository": {
     "type": "git",
